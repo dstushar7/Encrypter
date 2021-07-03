@@ -8,8 +8,8 @@ enk = str(input("Enter Encryption Key with no repeated letters: "))
 msg = str(input("Enter your message: "))
 enk = ctos(enk)
 msg = ctos(msg)
-lenk= len(enk)
-lenm= len(msg)
+lenk = len(enk)
+lenm = len(msg)
 m = int(lenm/lenk)#To know the number of rows
 n = lenm%lenk
 for i in range(lenk-n):
